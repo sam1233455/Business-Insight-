@@ -1,33 +1,64 @@
-Business Project Overview
-This is a project-based learning dashboard built using Power BI. We analyze various aspects of a fictional consumer electronics company, AtliQ Hardware, which operates across multiple countries.
-The company has been facing challenges due to its reliance on Excel for data analysis. Limited insights and lack of real-time visibility into performance led to a significant business loss in Latin America. The goal of this project is to create a centralized interactive dashboard to support better decision-making in departments like Finance, Sales, Marketing, and Supply Chain.
 
-Problem Statement
-AtliQ Hardware's data was scattered across Excel files, making it hard to gain actionable insights. They lacked proper tools and dashboards to monitor KPIs, track performance by region and department, and forecast future outcomes.
+ Project Overview
+ 
+AtliQ Hardware is a fast-growing electronics company that operates in many countries. They used Excel to analyze data, but it wasn’t effective. Because of poor data analysis, they faced big losses in Latin America.
+To fix this, company leaders decided to start a data analytics project. A team was assigned to build a dashboard that shows clear insights from departments like Sales, Finance, Marketing, and Supply Chain.
+This helps them make smarter decisions using data.
 
-Project Objectives
-Centralize and visualize key business metrics.
-Enable stakeholders to interact with and filter reports easily.
-Identify performance gaps and improvement opportunities.
-Forecast trends for the upcoming fiscal periods.
+ Business Terms
 
-🛠️ Tools & Technologies
-Power BI
-SQL
-Power Query
-DAX (Data Analysis Expressions)
+Gross Price – Price before any discounts.
 
- Data Handling & Transformation
-Imported raw Excel data and SQL query outputs into Power BI.
-Performed data cleaning, transformation, and merging using Power Query.
-Created custom tables like Date and Fiscal Year.
-Used calculated columns and measures via DAX for deeper insights.
-Built data models and defined relationships between tables.
+Net Sales – Final revenue after returns/discounts.
 
- Key Features in the Dashboard
-Department-wise dashboards (Finance, Sales, Marketing, Supply Chain).
-Trend and forecast analysis by fiscal year.
-KPIs showing Total Revenue, Gross Profit, Net Sales, Order Volume.
+Net Invoice Sales – Sales after invoice-based reductions.
+
+Pre-Invoice Deductions – Discounts before making the invoice.
+
+Post-Invoice Deductions – Reductions after invoice (like product returns).\
+
+Manufacturing Cost – Cost to make the products.
+
+Freight Cost – Shipping cost.COGS (Cost of Goods Sold) – Direct cost to produce goods.
+
+Gross Margin – Profit before expenses (Revenue - COGS).
+
+Operational Expenses – Daily business running costs.
+
+Net Profit – Final profit after all costs.
+
+FY (Financial Year) – Business accounting year (12 months).
+
+YTD (Year to Date) – From start of year till now.
+
+YTG (Year to Go) – Time left in the financial year.
+
+
+🛠️ Tools Used
+
+Power BI Desktop
+MySQL
+MS Excel
+
+ Key Learnings (Power BI)
+ 
+Importing data from MySQL, Excel, CSV
+Cleaning and transforming data
+Data modeling using star and snowflake models
+Creating measures using DAX
+Building visuals and dashboards
+Using features like bookmarks, buttons, field parameters
+Improving report performance
+Understanding KPIs like Net Sales, Profit, etc.
+Designing clean and useful dashboards
+
+ Project Outcome
+ 
+The Business Insights 360 dashboard helps AtliQ see how different parts of the business are performing.
+With this dashboard, they can:
+ Spot issues early
+ Improve decision-making
+ Compete better in the market
 
 
 
@@ -35,13 +66,6 @@ KPIs showing Total Revenue, Gross Profit, Net Sales, Order Volume.
 <img width="899" height="513" alt="Screenshot 2025-08-03 151636" src="https://github.com/user-attachments/assets/d807c3c5-028e-4120-b452-6f45b0ba3763" />
 <img width="903" height="492" alt="Screenshot 2025-08-03 151647" src="https://github.com/user-attachments/assets/166e2bcf-6a01-4ac5-b729-c736e2e2846e" />
 <img width="908" height="527" alt="Screenshot 2025-08-03 151709" src="https://github.com/user-attachments/assets/f8320ec4-d9e8-4076-873c-54131c2b1c81" />
-
-Learning Outcomes
-Gained hands-on experience with end-to-end dashboard development.
-Learned to transform messy data into structured tables using Power Query.
-Practiced SQL for extracting insights and Power BI for storytelling.
-Understood forecasting and fiscal planning in real-world business scenarios.
-
 
 
 
