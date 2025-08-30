@@ -4,61 +4,73 @@
 AtliQ Hardware is a fast-growing electronics company that operates in many countries. They used Excel to analyze data, but it wasn’t effective. Because of poor data analysis, they faced big losses in Latin America.
 To fix this, company leaders decided to start a data analytics project. A team was assigned to build a dashboard that shows clear insights from departments like Sales, Finance, Marketing, and Supply Chain.
 This helps them make smarter decisions using data.
+🏷️ Business Terms
 
- Business Terms
+Gross Price – Price before any discounts
 
-Gross Price – Price before any discounts.
+Net Sales – Final revenue after returns/discounts
 
-Net Sales – Final revenue after returns/discounts.
+Net Invoice Sales – Sales after invoice-based reductions
 
-Net Invoice Sales – Sales after invoice-based reductions.
+Pre-Invoice Deductions – Discounts before invoice generation
 
-Pre-Invoice Deductions – Discounts before making the invoice.
+Post-Invoice Deductions – Reductions after invoice (e.g., returns)
 
-Post-Invoice Deductions – Reductions after invoice (like product returns).\
+Manufacturing Cost – Cost to produce goods
 
-Manufacturing Cost – Cost to make the products.
+Freight Cost – Shipping cost
 
-Freight Cost – Shipping cost.COGS (Cost of Goods Sold) – Direct cost to produce goods.
+COGS (Cost of Goods Sold) – Direct cost to produce goods
 
-Gross Margin – Profit before expenses (Revenue - COGS).
+Gross Margin – Profit before expenses (Revenue – COGS)
 
-Operational Expenses – Daily business running costs.
+Operational Expenses – Daily business running costs
 
-Net Profit – Final profit after all costs.
+Net Profit – Final profit after all costs
 
-FY (Financial Year) – Business accounting year (12 months).
+FY (Financial Year) – 12-month accounting period
 
-YTD (Year to Date) – From start of year till now.
+YTD (Year to Date) – From start of year till current date
 
-YTG (Year to Go) – Time left in the financial year.
+YTG (Year to Go) – Remaining time in the financial year
 
+🛠️ Tools & Technologies
 
-🛠️ Tools Used
+Power BI Desktop – Data visualization and dashboard creation
 
-Power BI Desktop
-MySQL
-MS Excel
+MySQL – Database for structured data
 
- Key Learnings (Power BI)
- 
-Importing data from MySQL, Excel, CSV
-Cleaning and transforming data
-Data modeling using star and snowflake models
-Creating measures using DAX
-Building visuals and dashboards
-Using features like bookmarks, buttons, field parameters
-Improving report performance
-Understanding KPIs like Net Sales, Profit, etc.
-Designing clean and useful dashboards
+MS Excel / CSV – Additional data sources
 
- Project Outcome
- 
-The Business Insights 360 dashboard helps AtliQ see how different parts of the business are performing.
-With this dashboard, they can:
- Spot issues early
- Improve decision-making
- Compete better in the market
+📌 Key Learnings (Power BI)
+
+Importing and integrating data from MySQL, Excel, CSV
+
+Data cleaning and transformation using Power Query
+
+Data modeling with star and snowflake schemas
+
+Creating DAX measures (Net Sales, Gross Margin, Net Profit, etc.)
+
+Building interactive dashboards & visuals with bookmarks, buttons, field parameters
+
+Performance optimization for faster insights
+
+Designing clean, user-friendly dashboards aligned with business KPIs
+
+🚀 Project Outcome
+
+The Business Insights 360 Dashboard empowers AtliQ’s leadership to:
+
+Track key KPIs across Sales, Finance, Marketing, and Supply Chain
+
+Identify issues early (e.g., high Post-Invoice Deductions in Latin America)
+
+Improve decision-making speed with real-time insights
+
+Enhance competitiveness in global markets
+
+Prevent losses and optimize profitability
 
 
 
@@ -84,6 +96,3 @@ With this dashboard, they can:
 
 
 
-Dynamic filtering by region, time, and department.
-
-Clean layout with navigation buttons and slicers.-Insight-
